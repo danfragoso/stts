@@ -42,8 +42,6 @@ func sendWindow() {
 	windowTitle = strings.ReplaceAll(windowTitle, "{", "\\{")
 	windowTitle = strings.ReplaceAll(windowTitle, "}", "\\}")
 
-	windowTitle = strings.ReplaceAll(windowTitle, "[", "\\[")
-	windowTitle = strings.ReplaceAll(windowTitle, "]", "\\]")
 
 	windowTitle = strings.ReplaceAll(windowTitle, "\"", "\\\"")
 
